@@ -1,52 +1,45 @@
-# Huawei Mobile Services starter project
-Welcome to Huawei's workshop at [HackZurich 2020](https://www.hackzurich.com/) !
+# HUAWEI AR Engine Demo
 
-You have a bunch of fresh ideas and you aspire to make them possible with the help of the [Huawei Mobile Services](https://developer.huawei.com/consumer/en/hms). We feel your enthusiasm - that's why we prepared this starter project that will allow you to start coding *immediately* and avoid time consuming configuration steps.
+## Table of Contents
 
-### I'm in!
+* [Introduction](#introduction)
+* [Getting Started](#getting-started)
+* [Supported Environments](#supported-environments)
+* [Result](#result)
+* [License](#license)
 
-1. fork/clone this project
-2. visit the workshop Slack channel [#03_ws05_huawei](https://hackzurich2020.slack.com/archives/C018BLKE30U) 
-3. look for the file with secrets ([direct link](https://hackzurich2020.slack.com/archives/C018BLKE30U/p1600176389013300))
-4. unzip the file to the project's root
-5. start coding!
+## Introduction
+The HwAREngineDemo program demonstrates how to use HUAWEI AR Engine. For
+more development details, please refer to the following link:
+[HUAWEI AR Engine](https://developer.huawei.com/consumer/en/hms/huawei-arengine/)
 
+## Getting Started
+1. Register a [HUAWEI account](https://developer.huawei.com/consumer/).
+2. Check whether the Android studio development environment is ready.
+   Open the sample code project directory with file "build.gradle" in
+   Android Studio. Run HwAREngineDemo on your divice which have
+   installed latest HUAWEI AR Engine Service.
+3. To build this demo, please first import the demo in the Android Studio
+  (3.x+).
+4. Run the sample on your Android device.
 
+## Supported Environments
+JDK version >= 1.8 is recommended.
 
-### What just happened? Am I really ready to go?
+## Result
+After successful compilation and installation, you can experience the
+ARWorld, ARFace, ARBody and ARHand capabilities of arengine.
 
-Yes!! The starter project is a skeleton app that:
+## Question or issues
+If you want to evaluate more about HMS Core, [r/HMSCore on Reddit](https://www.reddit.com/r/HMSCore/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
 
-- has all the HMS Kits added as dependencies 
-- has all relevant permissions added to the manifest
-- is designed to be linked with a test account on [App Gallery](https://consumer.huawei.com/en/mobileservices/appgallery/) so no need to go through the process of creating an account, waiting for approval, enabling various HMS kits, download configuration files and adding a signing certificate fingerprint that authorizes you to use the kits.
+If you have questions about how to use HMS samples, try the following options:
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
+**huawei-mobile-services**.
+- [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101187876626530001) HMS Core Module is great for general questions, or seeking recommendations and opinions.
 
-The file with secrets is the link between the starter project and the test account. It contains:
+If you run into a bug in our samples, please submit an [issue](https://github.com/HMS-Core/hms-AREngine-demo/issues) to the Repository. Even better you can submit a [Pull Request](https://github.com/HMS-Core/hms-AREngine-demo/pulls) with a fix.
 
-- the `agconnect-services.json` configuration file that empowers your project to talk to HMS servers 
-- the signing configuration that authorizes your project to access HMS
-
-
-
-### But I don't have a Huawei HMS test device ...
-
-There are solutions.
-
-1. If you're participating on-site, ask for a test device at the Huawei booth. Be fast, their number is limited.
-2. Temporary install HMS Core on your own device, the latest apk is located [here](https://apkapp.gallery/download/application/apk/7c/7c33bfd98b864c2bbd9efb63b67baaf6/com.huawei.hwid.2009101044.apk).
-
-3. [Cloud Debugging](https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/CloudDebugging-introduction) : this requires you to actually own/create a Huawei ID, but once that's done, you can just download the [HMS Toolkit Android Studio plugin](https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/installation-0000001050145206) and access physical devices in the cloud.
-
-### Special needs
-
-If the starter project is too simple for you or maybe you already have a Huawei developer account, following is a list of other sample projects, developed in house by engineers like you - that are maybe more suitable for your specialized tasks:
-
-- ML Kit: https://github.com/joaobiriba/QuickFaceAnalyzer / https://github.com/joaobiriba/QuickHandAnalyzer / https://github.com/joaobiriba/ScanKitDemo 
-- AR Engine: https://github.com/ferPrieto/AREngine
-- Further HMS Samples: https://github.com/HMS-Core
-
-
-
-**Happy hacking!**
-
-(and feel free to reach out to the support developers on the workshop Slack channel [#03_ws05_huawei](https://hackzurich2020.slack.com/archives/C018BLKE30U) )
+## License
+HwAREngineDemo is licensed under the
+[Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
